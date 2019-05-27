@@ -1,0 +1,35 @@
+.container {
+  float: left;
+}
+
+figure {
+  height: 350px;
+  width: 400px;
+}
+
+.container img {
+  height: 200px;
+  width: 400px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(202, 193, 193);
+  height: 50px;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+}
+
+h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 15px; /* fallback */
+  max-height: 30px;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
